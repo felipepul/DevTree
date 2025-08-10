@@ -1,0 +1,28 @@
+{
+  "name": "devtree",
+  "version": "1.0.0",
+  "description": "Primer Proyecto con express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
+  },
+  "author": "Felipe",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "colors": "^1.4.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.16.3",
+    "slug": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/slug": "^5.0.9",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
